@@ -167,7 +167,7 @@ $(document).ready(function () {
 
     function display() {
         if (!betweenRounds) {
-            $("#timer").html(time);
+            $("#timer").html("Countdown:<br><br>" + time);
             $("#round").html("Round:<br><br>" + (1 + round));
         } else {
             if (round > 0) {

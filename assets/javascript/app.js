@@ -171,7 +171,7 @@ $(document).ready(function () {
             $("#round").html("Round:<br><br>" + (1 + round));
         } else {
             if (round > 0) {
-                $("#timer").html("<p> Round Over <br> Next Question in " + time + " Seconds </p>");
+                $("#timer").html("<p> Time's up Gunter <br> Next Question in " + time + " Seconds </p>");
             }
         }
         if (optionsLayout) {

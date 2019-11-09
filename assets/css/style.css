@@ -1,0 +1,64 @@
+html{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../images/background.jpg);
+    background-size: 100%;
+    font-family: 'Ubuntu', sans-serif;
+}
+header{
+    height: 70px;
+    text-align: center; 
+}
+.container{
+    width: 70%;
+    margin: 25px auto;
+    background-color: rgba(255, 255, 255, 0.747);
+    height: 70vh;
+    position: relative;
+    font-weight: bold;
+    padding: 30px;
+}
+#start, #end-game{
+     width: 60px;
+    height: 60px;
+    color: white;
+    background-color: blue;
+}
+.a:hover, #start:hover, #end-game:hover{
+    color: white;
+    background-color: red;
+    
+}
+#timer{
+    color: crimson;
+    bottom: 10vh;
+    font-size: 20px;
+    font-weight: bold;
+}
+.scores, #timer, .start-screen, #round{
+    width: 150px;
+    right: 3vw;
+    text-align: center;
+    overflow: auto;
+    position: absolute;
+    padding: 10px;
+}
+#round{
+    top: 15vh;
+    font-weight: bolder;
+    font-size: 14px;
+    background-color: silver;
+}
+.scores{
+    top: 30vh;
+}
+#question, #answers, #image{
+    border: none;
+    text-align: center;
+    font-size: 40px;
+    margin: 40px 300px 20px auto;
+    list-style-type: none;
+}
+img{
+    max-height: 230px;
+}
